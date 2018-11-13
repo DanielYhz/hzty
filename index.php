@@ -42,10 +42,10 @@
         by <a href="index.php"><?php echo $product_post_author ?></a>
         </p>
         
-        <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:00 PM</p>
+        <p><span class="glyphicon glyphicon-time"></span> <?php echo $product_date ?></p>
         
         <hr>
-            <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+            <img class="img-responsive" src="images/<?php echo $product_image; ?>" alt="">
         <hr>
         <p><?php echo $product_description ?></p>
         
