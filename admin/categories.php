@@ -32,6 +32,23 @@
                         </form>
                         </div>
 
+                        <div class = "col-xs-6">
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Category Title</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Single House Category</td>
+                                    <td>Apartment Category</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        </div>
 
                     </div>
                 </div>
