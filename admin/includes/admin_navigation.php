@@ -36,7 +36,7 @@
                         <a href="javascript:;" data-toggle="collapse" data-target="#products_dropdown"><i class="fa fa-fw fa-arrows-v"></i> Products <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="products_dropdown" class="collapse">
                             <li>
-                                <a href="#">View All Products</a>
+                                <a href="./posts.php">View All Products</a>
                             </li>
                             <li>
                                 <a href="#">Add Products</a>
@@ -44,7 +44,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Categories </a>
+                        <a href="./categories.php"><i class="fa fa-fw fa-wrench"></i> Categories </a>
                     </li>
 
                     <li class="active">
