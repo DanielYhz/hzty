@@ -6,14 +6,22 @@
       $product_status = $_POST['product_status'];
 
       $product_image = $_FILES['image']['name'];
-      $product_image_temp = $_FILES['image']['tmp_name'];
-
+      $product_image_temp = $_FILES["image"]["tmp_name"];
       $product_tags = $_POST['product_tags'];
       $product_description = $_POST['product_description'];
       $product_date = date('d-m-y');
       $product_comment_count = 4;
 
-      move_uploaded_file($product_image_temp, "../images/$product_image ");
+      $query = "INSERT INTO products(product_category_id, product_area, product_post_author,product_date,
+      product_image,product_description,product_tags,product_comment_count,product_status) ";
+
+      $query .= "VALUES({$product_category_id},'{$product_area}','{$product_post_author}',now(),'{$product_image}',
+      '{$product_description}','{$product_tags}',{$product_comment_count},'{$product_status}' ) ";
+
+      $create_post_query = mysqli_query($connection, $query);
+
+      confirmQuery($create_post_query);
+
   }
 ?>
 
@@ -31,7 +39,7 @@
     '
      <div class="form-group">
         <label for="product_post_author">Product Author</label>
-        <input type="text" class = "form-control" name="product_author">
+        <input type="text" class = "form-control" name="product_post_author">
     </div>
 
      <div class="form-group">

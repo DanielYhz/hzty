@@ -32,12 +32,14 @@
                         <a href="admin">Admin</a>
                     </li>
                     <li>
-                        <a href="About">About</a>
+                        <a href="about.php">About</a>
                     </li>
                     <li>
-                        <a href="Contact">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
-                    
+                    <li>
+                        <a href="Lab.php">Lab</a>
+                    </li>
                     
                 </ul>
             </div>

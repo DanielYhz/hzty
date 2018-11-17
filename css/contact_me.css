@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    color:darkslateblue;
+    letter-spacing: 3px;
+    background-image: url("../images/SFdt.jpg");
+
+}
+
+#borderimg{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image:url("../images/ancient.jpg") 30 round;
+}
+
+
+/*
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>  Find Us Here  </title>
+    <link rel="stylesheet" href="css/contact_me.css">
+</head>
+<body>
+				<h2>Find Us Here</h2>
+				<p>
+					510 Santa Clara St <br>
+					San Jose, CA(California) 95116<br>
+				</p>
+			</div>
+			<div class="sep">
+				Or
+			</div>
+			<div id="callnow">
+				<span>CALL NOW</span>
+				(510) 666-6666
+			</div>
+		</div>
+	</div>
+</body>
+</html>*/
